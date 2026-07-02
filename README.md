@@ -10,6 +10,10 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - WHERE
 - DISTINCT
 - ORDER BY
+- LIMIT
+- OFFSET
+- INNER JOIN
+- COUNT()
 
 ## Progress
 
@@ -22,6 +26,11 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] Weather Observation Station 1
 - [x] Weather Observation Station 2
 - [x] Weather Observation Station 3
+- [x] Weather Observation Station 4
+- [x] Weather Observation Station 5
+- [x] Weather Observation Station 6
+- [x] Weather Observation Station 7
+- [x] Weather Observation Station 8
 
 ⭐ HackerRank SQL Star: 1
 
