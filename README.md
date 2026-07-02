@@ -1,6 +1,6 @@
 # SQL HackerRank Solutions
 
-This repository contains my SQL practice while learning Data Analytics.
+This repository contains my SQL solutions from HackerRank as I learn SQL concepts.
 
 ## Platform
 - HackerRank
@@ -24,3 +24,9 @@ This repository contains my SQL practice while learning Data Analytics.
 - [x] Weather Observation Station 3
 
 ⭐ HackerRank SQL Star: 1
+
+## Platform
+- HackerRank
+
+## Author
+Reeti Keshari
