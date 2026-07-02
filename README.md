@@ -33,6 +33,7 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] Weather Observation Station 8
 
 ⭐ HackerRank SQL Star: 1
+⭐ HackerRank SQL Star: 2
 
 ## Platform
 - HackerRank
