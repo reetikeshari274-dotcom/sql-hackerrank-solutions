@@ -6,14 +6,26 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - HackerRank
 
 ## Topics Covered
-- Basic SELECT
+## SQL Concepts Learned
+
+- SELECT
 - WHERE
 - DISTINCT
+- LIKE
 - ORDER BY
-- LIMIT
+- COUNT
+- SUM
+- AVG
+- MIN
+- MAX
+- ROUND
+- FLOOR
+- GROUP BY
+- HAVING
+- JOIN
 - OFFSET
-- INNER JOIN
-- COUNT()
+- IN
+- BETWEEN
 
 ## Progress
 
@@ -31,6 +43,17 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] Weather Observation Station 6
 - [x] Weather Observation Station 7
 - [x] Weather Observation Station 8
+- [x] Weather Observation Station 9
+- [x] Weather Observation Station 10
+- [x] Weather Observation Station 11
+- [x] Revising Aggregations - The Count Functions
+- [x] Revising Aggregations - The Sum Functions
+- [x] Revising Aggregations - Averages
+- [x] Average Population
+- [x] Japan Population
+- [x] Top Earners
+- [x] The Blunder
+
 
 ⭐ HackerRank SQL Star: 1
 ⭐ HackerRank SQL Star: 2
