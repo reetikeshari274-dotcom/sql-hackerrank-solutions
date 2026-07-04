@@ -1,0 +1,9 @@
+-- Problem: Average Population
+-- Concepts:
+-- AVG()
+-- CEIL()
+-- REPLACE()
+-- FROM
+-- SELECT 
+
+select ceil( avg(salary)- avg(replace(salary,'0',''))) from employees;
