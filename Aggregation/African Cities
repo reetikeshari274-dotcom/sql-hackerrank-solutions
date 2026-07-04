@@ -1,0 +1,11 @@
+problem- African Cities
+topics learned- 
+inner join
+where
+string
+
+select city.name from city
+
+inner join country
+on cITY.countrycode = COUNTRY.code
+where country.continent='Africa';
