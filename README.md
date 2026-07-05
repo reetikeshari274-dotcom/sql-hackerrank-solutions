@@ -30,6 +30,8 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - REPLACE
 - CEIL
 - CASE
+- MULTIPLE TABLE ADDING
+- CORRELAED SUBQUERY
 
 ## Progress
 
@@ -64,6 +66,7 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] Employee Salaries
 - [x] Employee Names
 - [x] Ollivander's Inventory
+- [x] Top Competitors
 
 
 ⭐ HackerRank SQL Star: 1
