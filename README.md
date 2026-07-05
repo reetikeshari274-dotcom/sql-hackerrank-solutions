@@ -61,13 +61,14 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] African Cities
 - [x] Average Population of Each Continent
 - [x] The Report
-- [ ] Employee Salaries
+- [x] Employee Salaries
 - [ ] Employee Names
 - [ ] Ollivander's Inventory
 
 
 ⭐ HackerRank SQL Star: 1
 ⭐ HackerRank SQL Star: 2
+⭐ HackerRank SQL Star: 3
 
 ## Platform
 - HackerRank
