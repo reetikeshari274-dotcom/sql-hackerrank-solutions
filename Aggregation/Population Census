@@ -1,0 +1,14 @@
+--Problem: Population Census
+--Topics covered:
+--SUM()
+--INNER JOIN
+--WHERE
+
+
+CODE-
+selecT SUM(city.POPULATION) from city 
+inner join country
+on city.countrycode= country.code
+
+
+where  country.continent='Asia';
