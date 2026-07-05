@@ -26,6 +26,10 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - OFFSET
 - IN
 - BETWEEN
+- FLOOR
+- REPLACE
+- CEIL
+- CASE
 
 ## Progress
 
@@ -53,6 +57,13 @@ This repository contains my SQL solutions from HackerRank as I learn SQL concept
 - [x] Japan Population
 - [x] Top Earners
 - [x] The Blunder
+- [x] Population Density DIfference
+- [x] African Cities
+- [x] Average Population of Each Continent
+- [x] The Report
+- [ ] Employee Salaries
+- [ ] Employee Names
+- [ ] Ollivander's Inventory
 
 
 ⭐ HackerRank SQL Star: 1
