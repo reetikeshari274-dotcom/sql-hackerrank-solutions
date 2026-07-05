@@ -1,0 +1,27 @@
+--PROBLEM- TOP COMPETITORS
+--LEARNED-
+INNER JOIN with multiple tables.
+Understanding table relationships before writing JOINs.
+Using GROUP BY to group records by hacker.
+Using COUNT(DISTINCT column) to avoid counting duplicate challenges.
+Using HAVING to filter grouped results.
+Comparing columns from different tables (Submissions.score = Difficulty.score).
+Sorting results using multiple conditions in ORDER BY.
+Understanding the difference between challenge creator (Challenges.hacker_id) and challenge solver (Submissions.hacker_id).
+Following the correct join path based on table relationships instead of joining tables just because they have a column with the same name.
+
+--SOLUTION- 
+select h.hacker_id , h.name from hackers as h
+inner join submissions as s
+on h.hacker_id=s.hacker_id
+/*join challenges as c
+on h.hacker_id=c.hacker_id <- this is wrong becauase in challenges , the hacker_id represents who created the challenge , and in the submissions, it represents who solve the challenge , and we need that who solved the more than one  challenge , so if we join this , will give wrong name that who solved the challenge, no, it will give who creates the challenge*/
+JOIN Challenges c
+    ON s.challenge_id = c.challenge_id
+join difficulty as d
+on c.difficulty_level=d.difficulty_level
+where s.score = d.score
+group by h.hacker_id, h.name
+having count(distinct s.challenge_id)>1
+order by count(distinct s.challenge_id) desc  ,            
+h.hacker_id asc;
