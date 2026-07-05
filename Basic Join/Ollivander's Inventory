@@ -1,0 +1,29 @@
+--PROBLEM- Ollivander's Inventory
+--TOPICS LEARNED
+--INNER JOIN
+--Table aliases (AS)
+--Correlated Subqueries
+--MIN() aggregate function
+--Comparing a column with a subquery result
+--Filtering using WHERE
+--Multiple conditions using AND
+--Finding the minimum value for each group
+--Using multiple columns for correlation (power and age)
+--Sorting with multiple columns using ORDER BY
+--ORDER BY ... DESC
+
+CODE-
+SELECT Wands.id, Wands_Property.age, Wands.coins_needed, Wands.power 
+FROM Wands
+INNER JOIN Wands_Property
+ON Wands.code=Wands_Property.code
+WHERE Wands_Property.is_evil=0 and Wands.coins_needed=
+( SELECT MIN(w.coins_needed)
+FROM Wands as w
+JOIN Wands_Property as wp
+ON w.code = wp.code
+WHERE w.power = Wands.power
+AND wp.age = Wands_Property.age
+AND wp.is_evil = 0)
+ORDER BY Wands.power DESC, 
+Wands_Property.age DESC;
